@@ -129,7 +129,7 @@
             </svg>
           </div>
         </tabbar-item>
-        <tabbar-item>
+        <tabbar-item link="/profile">
           <span slot="icon" class="footer_icon_box">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-wode1"></use>
