@@ -1,20 +1,7 @@
 import Vue from 'vue'
 import FastClick from 'fastclick'
-import VueRouter from 'vue-router'
 import App from './App'
-import Home from './components/HelloFromVux'
-import Index from './pages/Index'
-
-Vue.use(VueRouter)
-
-const routes = [{
-  path: '/',
-  component: Index
-}]
-
-const router = new VueRouter({
-  routes
-})
+import router from "./router";
 
 FastClick.attach(document.body)
 
